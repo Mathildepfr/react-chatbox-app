@@ -1,0 +1,35 @@
+.user-message {
+	background-color: #6466D4;
+	color: #fff;
+	align-self: flex-end;
+	position: relative;
+}
+
+.user-message:after {
+	content: '';
+	position: absolute;
+	bottom: -7px;
+	right: 10px;
+	width: 0;
+	border-width: 7px 0 0 10px;
+	border-style: solid;
+	border-color: #6466D4 transparent;
+}
+
+.not-user-message {
+	background-color: #DCD4CE;
+  color: #2C2C2C;
+	align-self: flex-start;
+	position: relative;
+}
+
+.not-user-message:after {
+	content: '';
+	position: absolute;
+	top: -7px;
+	left: 10px;
+	width: 0;
+	border-width: 0 10px 7px 0;
+	border-style: solid;
+	border-color: #DCD4CE transparent;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, .box > *, textarea, input {
+	font-family: 'Roboto', sans-serif;
+	color: #1d1d1d;
+	overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+.box {
+	display:flex;
+	justify-content: center;
+ 	flex-wrap: wrap;
+ 	align-items: flex-end;
+	width: 60%;
+	/* height: calc(100vh - 100px); */
+  margin: 0 auto;
+}
+
+.box img {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.box > * {
+	width: 100%;
+}
+
+.messages {
+  background-color: #DC676D;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+	flex: 1 1 100%;
+  padding: 5%;
+	box-sizing: border-box;
+	align-self: flex-end;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling:touch;
+}
+
+.messages::-webkit-scrollbar {
+    width: 0.4em;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background-color: #eceff1;
+}
+
+.message {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.message > * {
+	padding: 5px 10px;
+	max-width: 75%;
+	border-radius: 2px;
+	margin: 10px 0;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
