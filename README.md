@@ -2,7 +2,7 @@ Challenge from 'React 16+ Le Guide Complet (+Redux, React Router & Firebase)' on
  
 Have a look: http://www.mathildepeiffer.com/reactchatbox
 
-
+ 
 
 w/ firebase  🔥
  
